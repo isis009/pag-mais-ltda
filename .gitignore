@@ -1,0 +1,18 @@
+# Arquivos compilados Java
+*.class
+
+# Pastas de compilação
+bin/
+out/
+target/
+build/
+
+# Configurações de IDE
+.idea/
+
+# Arquivos temporários do Windows
+Thumbs.db
+Desktop.ini
+
+# Arquivos do sistema
+.DS_Store
