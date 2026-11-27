@@ -181,6 +181,10 @@ public class Principal {
             String entrada = sc.nextLine().trim().replace(",", ".");
             try {
                 double valor = Double.parseDouble(entrada);
+                if (!Double.isFinite(valor)) {
+                    System.out.println("Digite um número válido.");
+                    continue;
+                }
                 if (valor < 0) {
                     System.out.println("Valor inválido: não pode ser negativo.");
                 } else {
